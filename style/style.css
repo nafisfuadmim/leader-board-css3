@@ -14,6 +14,10 @@ main {
     width: 870px;
     padding: 30px;
 }
+hr {
+    color: #9F9F9F;
+    margin-bottom: 27px;
+}
 /* top players style */
 .top-players {
     margin-bottom: 30px;
@@ -43,6 +47,10 @@ main {
 }
 /*------------------------ Top Blog Styles
 ---------------------------------------------------------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .blog {
     display: flex;
 }
